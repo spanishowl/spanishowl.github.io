@@ -96,6 +96,7 @@ footer {
   padding: 1rem 0;
 }
 
+
 form {
   display: flex;
   flex-direction: column;
@@ -126,4 +127,26 @@ form button {
 
 form button:hover {
   background: #256128;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project h3 {
+  margin: 0.5rem 0 0.25rem;
+  color: var(--green);
+}
+
+.project p {
+  margin: 0;
+  font-size: 0.9rem;
 }
